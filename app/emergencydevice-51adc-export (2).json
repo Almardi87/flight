@@ -1,0 +1,44 @@
+{
+  "users" : {
+    "user1" : {
+      "bloodtype" : "B-",
+      "dob" : "10/10/2020",
+      "height" : 180,
+      "hospital" : "JHAH",
+      "location" : "\"https://www.google.com/maps/place/Saudi+Electronic+University",
+      "medicalCon" : "Insu",
+      "medication" : "N/A",
+      "mobile" : "0501234569",
+      "name" : "faisal",
+      "nationalid" : 1078945615,
+      "paramedic" : "Abdallah",
+      "usertype" : "operation",
+      "weight" : 70
+    },
+    "user2" : {
+      "bloodtype" : "O+",
+      "dob" : "10/09/1991",
+      "height" : 178,
+      "location" : "https://www.google.com/maps/place/Saudi+Electronic+University/@26.405427,50.0884391,18z/data=!4m12!1m6!3m5!1s0x3e49fb66dd4c69db:0x285d0bafd210c477!2sSaudi+Electronic+University",
+      "medicalCon" : "N/A",
+      "medication" : "Insu",
+      "mobile" : "0591111959",
+      "name" : "Idris",
+      "nationalid" : 1020456789,
+      "usertype" : "admin",
+      "weight" : 70
+    },
+    "user3" : {
+      "bloodtype" : "A+",
+      "dob" : "20/10/1990",
+      "height" : 170,
+      "medicalCon" : "Insu",
+      "medication" : "N/A",
+      "mobile" : "0598359562",
+      "name" : "Abdallah",
+      "nationalid" : 1056789234,
+      "usertype" : "paramedic",
+      "weight" : 90
+    }
+  }
+}

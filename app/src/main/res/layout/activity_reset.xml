@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white"
+        android:padding="25dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+            <ImageView
+                android:id="@+id/view_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/passicon3" />
+
+            <TextView
+                android:id="@+id/txtResetPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_alignParentTop="true"
+                android:text="Reset your password"
+                android:layout_centerHorizontal="true"
+                android:typeface="sans"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/number_edtext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtResetPass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/round_edit_text"
+                android:inputType="textWebEmailAddress"
+                android:padding="15dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ems="10"
+                android:hint="National ID"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="20dp"/>
+
+
+            <Button
+                android:id="@+id/Reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/number_edtext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/custom_button2"
+                android:text="Reset"
+                android:onClick="resetMethod"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/number_edtext"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/Reset"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/custom_button2"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

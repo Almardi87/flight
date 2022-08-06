@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "852695256233",
+    "firebase_url": "https://emergencydevice-51adc.firebaseio.com",
+    "project_id": "emergencydevice-51adc",
+    "storage_bucket": "emergencydevice-51adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852695256233:android:4ce7282039802144",
+        "android_client_info": {
+          "package_name": "com.mutairibassam.emergencydevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852695256233-83tpneq0mlnt4jjjm8qj4p8j5e69k81b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mutairibassam.emergencydevice",
+            "certificate_hash": "8b77bd453c771fdf64d34ca2226c14538c865b1e"
+          }
+        },
+        {
+          "client_id": "852695256233-06lm5c938afhd4jaehe9ifpu0k4apdaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeDznU8LGIIzSOglAO8JzIbRHr2bFwUvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852695256233-06lm5c938afhd4jaehe9ifpu0k4apdaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_weight="1"
+            android:background="#ECFAFF">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <EditText
+                android:id="@+id/NationalID"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:maxEms="10"
+                android:gravity="left"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:textColor="@color/light_dark"
+                android:background="@drawable/round_edit_text"
+                android:inputType="number"
+                android:hint=" National ID" />
+
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_below="@+id/NationalID"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPassword"
+                android:gravity="left"
+                android:minEms="6"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/light_dark"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_edit_text"
+                android:maxLines="1"
+                android:hint=" Password" />
+
+            <EditText
+                android:id="@+id/Password2"
+                android:layout_below="@+id/Password"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPassword"
+                android:minEms="6"
+                android:gravity="left"
+                android:textColor="@color/light_dark"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_edit_text"
+                android:maxLines="1"
+                android:hint=" Confirm Password" />
+
+
+            <Button
+                android:id="@+id/btnBack2"
+                android:layout_below="@+id/Password2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/round_edit_text"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:text="Back" />
+
+            <Button
+                android:id="@+id/btnSubmit2"
+                android:layout_toRightOf="@+id/btnBack2"
+                android:layout_below="@+id/Password2"
+                android:layout_marginTop="75dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:onClick="navigation"
+                android:background="@drawable/round_edit_text"
+                android:textColor="@color/black"
+                android:text="Submit" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

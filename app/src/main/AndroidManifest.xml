@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mutairibassam.emergencydevice">
+
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".FireApp"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".ResetActivity"></activity>
+        <activity android:name=".OpertionProfile"></activity>
+        <activity android:name=".AllNavActivity"></activity>
+
+        <activity android:name=".AdminNavActivity"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity android:name=".OperationNavActivity"></activity>
+        <activity android:name=".UserNavActivity"></activity>
+        <activity android:name=".ParamedicNavActivity"></activity>
+
+        <activity android:name=".PatientNavActivity"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity android:name=".ParamedicPatientProfileActivity"></activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "852695256233",
+    "firebase_url": "https://emergencydevice-51adc.firebaseio.com",
+    "project_id": "emergencydevice-51adc",
+    "storage_bucket": "emergencydevice-51adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852695256233:android:4ce7282039802144",
+        "android_client_info": {
+          "package_name": "com.mutairibassam.emergencydevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852695256233-06lm5c938afhd4jaehe9ifpu0k4apdaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeDznU8LGIIzSOglAO8JzIbRHr2bFwUvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

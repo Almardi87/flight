@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/HeaderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/NationalID"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="National ID"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/personicon2"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/NationalID"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/passicon2"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password"
+            android:layout_marginTop="15dp"
+            android:onClick="navigation"
+            android:layout_centerInParent="true"
+            android:textColor="#000"
+            android:text="Login" />
+
+                    <!--android:background="@drawable/custom_button"-->
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_marginTop="75dp"
+            android:onClick="navigation"
+            android:background="@drawable/round_edit_text"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="110dp"
+            android:textColor="@color/black"
+            android:text="Reset" />
+
+
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_toRightOf="@+id/btnReset"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="navigation"
+            android:background="@drawable/round_edit_text"
+            android:textColor="@color/black"
+            android:text="Sign up" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

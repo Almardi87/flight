@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/firstbtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:id="@+id/xmlbtnOperation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:background="@drawable/round_edit_text"
+                android:textColor="@color/black"
+                android:padding="20dp"
+                android:text="Operation"
+                />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/secondbtn"
+        android:layout_below="@+id/firstbtn"
+        >
+
+        <Button
+            android:id="@+id/xmlbtnAdmin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="@drawable/round_edit_text"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:text="Admin"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/thirdbtn"
+        android:layout_below="@id/secondbtn">
+
+        <Button
+            android:id="@+id/xmlbtnParamedic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="@drawable/round_edit_text"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:text="Paramedic"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/thirdbtn"
+        android:id="@+id/fourthbtn">
+
+        <Button
+            android:id="@+id/xmlbtnPatient"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="@drawable/round_edit_text"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:text="Patient"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>
